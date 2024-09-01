@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-active {
+  @apply bg-red-500 hover:bg-red-700;
+}
+
+.btn-loading {
+  @apply bg-orange-500 hover:bg-orange-700;
+}
+.btn-idle {
+  @apply bg-green-500 hover:bg-green-700;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
